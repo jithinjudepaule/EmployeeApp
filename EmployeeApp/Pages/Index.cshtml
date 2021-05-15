@@ -8,3 +8,14 @@
     <h1 class="display-4">Welcome to Employee App</h1>
   
 </div>
+
+<div class="card-columns">
+    @foreach (var employee in Model.Employees)
+    {
+
+        <h2>Name: @employee.Name</h2>
+        <h2>Manager: @employee.Manager</h2>
+        <h2>Address: @employee.Address</h2>
+
+    }
+</div>

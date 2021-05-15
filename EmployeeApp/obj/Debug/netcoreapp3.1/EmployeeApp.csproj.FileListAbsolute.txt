@@ -12,8 +12,6 @@ F:\GitRepos\EmployeeApp\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp3.1\Employee
 F:\GitRepos\EmployeeApp\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.csprojAssemblyReference.cache
 F:\GitRepos\EmployeeApp\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.AssemblyInfoInputs.cache
 F:\GitRepos\EmployeeApp\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.AssemblyInfo.cs
-F:\GitRepos\EmployeeApp\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.csproj.CoreCompileInputs.cache
-F:\GitRepos\EmployeeApp\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.MvcApplicationPartsAssemblyInfo.cache
 F:\GitRepos\EmployeeApp\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.RazorAssemblyInfo.cache
 F:\GitRepos\EmployeeApp\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.RazorAssemblyInfo.cs
 F:\GitRepos\EmployeeApp\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.TagHelpers.input.cache
@@ -35,3 +33,6 @@ F:\GitRepos\EmployeeApp\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\Employee
 F:\GitRepos\EmployeeApp\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.pdb
 F:\GitRepos\EmployeeApp\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.genruntimeconfig.cache
 F:\GitRepos\EmployeeApp\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.csproj.CopyComplete
+F:\GitRepos\EmployeeApp\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.csproj.CoreCompileInputs.cache
+F:\GitRepos\EmployeeApp\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.MvcApplicationPartsAssemblyInfo.cache
+F:\GitRepos\EmployeeApp\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

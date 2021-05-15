@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5ZwVPgwL6ERwy14VYeX9NWxL/DGnh3LaTRINrwwRm1juvkMMC/6GD9R9Ah4GBn8IxjCTu81Hi7li5MCXLFVGUQ==",
+  "dgSpecHash": "Ck+pk+dixJ1BIVwzNGE7vkyQj6BAEGT6jyWBdQ485thEincXDtks67CMJY1VMwZkvfYBLc5GcVmCFfy+QarLEg==",
   "success": true,
   "projectFilePath": "F:\\GitRepos\\EmployeeApp\\EmployeeApp\\EmployeeApp\\EmployeeApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Sony\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
