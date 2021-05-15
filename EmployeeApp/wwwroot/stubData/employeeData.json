@@ -1,0 +1,58 @@
+﻿{
+  "Employees": [
+    {
+      "userId": "jdoe",
+      "name": "John Doe",
+      "joiningDate": "2021-04-23T18:25:43.511Z",
+      "salaryDetails": {
+        "MonthlySalary": "20000",
+        "YearlySalary": "24000"
+      },
+      "address": "India",
+      "manager": "Simon Mein",
+      "comments": [
+        {
+          "author": "anonymous",
+          "createdDate": "2020-04-23T18:25:43.511Z",
+          "text": "test 789"
+        }
+      ]
+    },
+    {
+      "userId": "rdoe",
+      "name": "Ron Doe",
+      "joiningDate": "2019-04-23T18:25:43.511Z",
+      "salaryDetails": {
+        "MonthlySalary": "20000",
+        "YearlySalary": "24000"
+      },
+      "address": "India",
+      "manager": "Simon Mein",
+      "comments": [
+        {
+          "author": "anonymous",
+          "createdDate": "2020-04-23T18:25:43.511Z",
+          "text": "test 456"
+        }
+      ]
+    },
+    {
+      "userId": "sdoe",
+      "name": "Simon Doe",
+      "joiningDate": "2011-04-23T18:25:43.511Z",
+      "salaryDetails": {
+        "MonthlySalary": "200000",
+        "YearlySalary": "240000"
+      },
+      "address": "India",
+      "manager": "Simpson Fey",
+      "comments": [
+        {
+          "author": "anonymous",
+          "createdDate": "2020-04-23T18:25:43.511Z",
+          "text": "test 123"
+        }
+      ]
+    }
+  ]
+}
