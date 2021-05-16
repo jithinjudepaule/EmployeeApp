@@ -10,10 +10,13 @@ namespace EmployeeApp.Models
     public class Employee
     {
         [JsonPropertyName("userId")]
-        public string USerId { get; set; }
+        public string UserId { get; set; }
 
         [JsonPropertyName("name")]
         public string Name { get; set; }
+
+        [JsonPropertyName("jobTitle")]
+        public string  JobTitle { get; set; }
 
         [JsonPropertyName("joiningDate")]
         public DateTime? JoiningDate { get; set; }
@@ -30,9 +33,6 @@ namespace EmployeeApp.Models
         [JsonPropertyName("comments")]
         public List<Comment> Comments { get; set; }
        
-        [JsonPropertyName("employees")]
-        public List<Employee> Employees { get; set; }
-
         public override string ToString() => JsonSerializer.Serialize<Employee>(this);
        
     }
@@ -71,6 +71,5 @@ namespace EmployeeApp.Models
         }
 
     }
-
 
 }

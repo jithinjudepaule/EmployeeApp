@@ -3,6 +3,7 @@
     {
       "userId": "jdoe",
       "name": "John Doe",
+      "jobTitle": "Developer",
       "joiningDate": "2021-04-23T18:25:43.511Z",
       "salaryDetails": {
         "MonthlySalary": "20000",
@@ -21,6 +22,7 @@
     {
       "userId": "rdoe",
       "name": "Ron Doe",
+      "jobTitle": "Developer",
       "joiningDate": "2019-04-23T18:25:43.511Z",
       "salaryDetails": {
         "MonthlySalary": "20000",
@@ -39,6 +41,7 @@
     {
       "userId": "sdoe",
       "name": "Simon Doe",
+      "jobTitle": "Team Lead",
       "joiningDate": "2011-04-23T18:25:43.511Z",
       "salaryDetails": {
         "MonthlySalary": "200000",
