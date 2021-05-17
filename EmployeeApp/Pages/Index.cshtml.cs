@@ -13,18 +13,18 @@ namespace EmployeeApp.Pages
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
-        public JsonFileEmployeeDataService JsonService;
+ 
         public IEnumerable<Employee> Employees { get; private set; }
 
-        public IndexModel(ILogger<IndexModel> logger, JsonFileEmployeeDataService jsonService)
+        public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
-            this.JsonService = jsonService;
+ 
         }
 
         public void OnGet()
         {
-            Employees = JsonService.GetEmployees().Employees;
+            
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿@page
+@using EmployeeApp.Components; 
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
@@ -7,17 +8,9 @@
 <div class="text-center">
     <h1 class="display-4">Welcome to Employee App</h1>
 
-</div></div>
-
-<div class="card-columns">
-    @foreach (var employee in Model.Employees)
-    {
-        <div class="card">
-            <div class="card-body">
-                <h3>Name: @employee.Name</h3>
-                <h3>Job Title: @employee.JobTitle</h3>
-            </div>
-        </div>
-
-    }
 </div>
+
+@(await Html.RenderComponentAsync<EmployeeDetails>(RenderMode.ServerPrerendered))
+    
+
+<script src="_framework/blzor.server.js"></script>

@@ -1,0 +1,76 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.AspNetCore.Components
+@using EmployeeApp.Models
+@using EmployeeApp.Services
+
+@inject EmployeeService employeeService
+
+<div class="card-columns">
+    @foreach (var employee in employeeService.GetEmployees())
+    {
+        <div class="card">
+            <div class="card-body">
+                <h3>Name: @employee.Name</h3>
+                <h3>Job Title: @employee.JobTitle</h3>
+            </div>
+        </div>
+
+        <div class="card-footer">
+            <small class="text-muted">
+                <button @onclick="(e => DisplayEmployeeDetails(employee.UserId))" data-toggle="modal" data-target="#employeeModal" class="btn btn-primary">More Info</button>
+            </small>
+        </div>
+
+    }
+</div>
+
+@if (selectedUserId != null)
+{
+    <div class="modal fade" id="employeeModal" tabindex="-1" role="dialog" aria-labelledby="employeeName" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="employeeName">@employeeDetails.Name</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">JobTitle: @employeeDetails.JobTitle</p>
+                            <p class="card-text">Address: @employeeDetails.Address</p>
+                            <p class="card-text">JoiningDate: @employeeDetails.JoiningDate</p>
+                            <p class="card-text">Manager: @employeeDetails.Manager</p>
+                            <p class="card-text">YearlySalary: @employeeDetails.SalaryDetails.YearlySalary</p>
+                         
+                            @foreach (var comment in employeeDetails.Comments)
+                            {
+                                
+                                <p class="card-text"><b>Comment by: @comment.Author</b></p>
+                                <p class="card-text">@comment.CommentText</p>
+                                <p class="card-text">@comment.DateCreated</p>
+
+                            }
+                            <button>Add comment</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    Employee employeeDetails;
+    string selectedUserId;
+
+    void DisplayEmployeeDetails(string userId)
+    {
+        selectedUserId = userId;
+        employeeDetails = employeeService.GetEmployees().First(x => x.UserId == userId);
+    }
+
+}
